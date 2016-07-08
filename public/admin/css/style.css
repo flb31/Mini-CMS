@@ -1,0 +1,33 @@
+ .select-editable {
+     position:relative;
+     background-color:white;
+     height:35px;
+ }
+ .select-editable select {
+     position:absolute;
+     top:0px;
+     left:0px;
+     font-size:14px;
+     border:none;
+     width:120px;
+     margin:0;
+ }
+ .select-editable input {
+     position:absolute;
+     top:0px;
+     left:0px;
+     width: 95%;
+     padding:1px;
+     font-size:12px;
+     border:none;
+ }
+ .select-editable select:focus, .select-editable input:focus {
+     outline:none;
+ }
+
+
+.mid-page, form, table{
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
